@@ -57,6 +57,7 @@ def dennis_ritchies_language
         }
      }
   convert_value = programmer_hash[:dennis_ritchie][:languages].to_s
+    convert_value.delete("[]")
 
 end
 
